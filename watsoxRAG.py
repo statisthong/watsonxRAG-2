@@ -10,7 +10,7 @@ load_dotenv()
 
 # Get the API key and URL from the environment variables
 api_key = os.getenv("V6xxL8qhYUxQjFH4evxnvc_d4PtvgSK-IuiSNHH1EqeR", None)
-api_url = os.getenv("GENAI_API", None)
+api_url = os.getenv("https://us-south.ml.cloud.ibm.com", None)
 
 # Create a Credentials object to pass to the LangChainInterface
 creds = Credentials(api_key, api_endpoint=api_url)
